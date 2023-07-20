@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Twitter Image */ 
+img {
+    float: left;
+}
+/* /Twitter Image */ 
+
+/* Container */ 
+.container {
+    float: left;
+    padding-top: 200px;
+    padding-left: 44px;
+}
+h1 {
+    font-family: 'Roboto-Black';
+    font-size: 84px;
+    font-weight: 900;
+    line-height: 98px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 57px;
+    margin-bottom: 46px;
+}
+h3 {
+    font-family: 'Roboto-Black';
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 31px;
+}
+button, .g-button {
+    display: flex;
+    width: 403px;
+    height: 62px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    width: 403px;
+    height: 62px;
+    opacity: 0.8;
+    background-color: white;
+    border: 1px solid #E4EAED;
+    border-radius: 42px;
+    font-family: 'Roboto-Medium';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+}
+form>.g-button>img {
+    padding-bottom: 2px;
+    padding-right: 5px;
+}
+form>.a-button>img {
+    padding-bottom: 1px;
+    padding-right: 6px;
+}
+span {
+    font-family: 'Roboto-Regular';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+  
+}
+p {
+    font-family: 'Roboto-Regular';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 20px;
+}
+span>a, p>a {
+    text-decoration: none;
+    color: #1E97E1;
+}
+
+/* /Container */ 
+
+/* Footer */ 
+.footer {
+    width: 100%;
+    display: flex;
+    
+    padding-top: 18px;
+    padding-left: 320px;
+}
+.footer>nav>a {
+    font-family: 'Roboto-Regular';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    padding-right: 19px;
+}
+/* /Footer */ 
